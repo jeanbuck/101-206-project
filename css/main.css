@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+/*removed commas and arranged alphabetically*/
+/*indented*/
+
+  html body{
+		background-image:url('symphony.png') repeat;
+		color: dimgray;
+		/* Background image from http://subtlepatterns.com/ */
+		font-family: 'montserrat', sans-serif;
+		text-align: center;
+		margin: 0px;
+}
+/*removed capital letters in ids and classes*/
+h1 h2 h3 h4{
+
+}
+
+h1{
+	color:tomato;
+}
+
+h2{
+	color: salmon;
+}
+
+.email{
+	color: darkseagreen;
+	text-decoration: none;
+}
+
+
+.name{
+	border : 10px solid tomato;
+	display: inline;
+	margin-bottom: 0px;
+	padding: 30px;
+
+}
+
+
+#wrapper{
+	margin-top: 150px;
+
+}
+
+
+.title{
+	margin-top: 40px;
+  padding: 30px;
+}
+.phone-number{
+	color: darkseagreen;
+}
+/* -------------- Quote Styles ------------*/
+.inspirational-quote{
+	font-style: italic;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 50px;
+
+}
+
+
+.linebreak{
+	border: 1px solid grey;
+  margin: 30px auto;
+  width: 50%;
+}
